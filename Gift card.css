@@ -1,0 +1,132 @@
+.body{
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto Mono', monospace;
+color: #ffffff;
+text-align: center;
+margin-top: 100px auto;
+background:linear-gradient(#a2d2ff,#EFB0C9);
+text-shadow: 0px 0px 1px black;
+}
+#img{
+    width: 135px;
+    border: 5px solid #EFB0C9;
+    border-radius: 50%;   
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.age{
+    background: #EFB0C9;
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin-top: 20px;
+}
+.years{
+    background:#EFB0C9;
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin-top: 0px;
+}
+.gift{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 50px;
+}
+.giftimg{
+    border:5px solid #8a88ff;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(happy-2\ birthday.jpg);
+    background-size: cover;
+}
+.gift-h1{
+    background:none;
+}
+.gift-h2{
+background:none;
+}
+.giftimg:hover{
+    background-image: url(birthday.jpg);
+}
+.gift-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    border:5px solid #8a88ff;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(happy-2\ birthday.jpg);
+    background-size: cover;
+}
+.gift-2-h1{
+    background-color:none;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.gift-img:hover{
+    background-image: url(exiting.gif);
+}
+.giftno-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-no-3{
+    background-color:none;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.gift-no-3{
+    border:5px solid #8a88ff;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(happy-2\ birthday.jpg);
+    background-size: cover;
+}
+.gift-no-3:hover{
+    background-image: url(best\ friend.gif);
+}
+.last-genius{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.genius{
+    background-color:none;
+    font-size:45px;
+}
+.last{
+    border:5px solid #8a88ff;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    background-image: url(happy-2\ birthday.jpg);
+    background-size: contain ;
+    margin-bottom: 50px;
+}
+.last:hover{
+    background-image: url(genius.gif);
+}
+.link{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.para{
+    font-size: 25px;
+    margin: 100px auto;
+    color: #ffffff;
+    text-shadow: -1px 1px black;
+    font-style: italic;
+}
+.a{
+    color: #ffffff;
+}
